@@ -1,0 +1,65 @@
+xde-theme-blackbirds -- read me first file.  2013-12-23
+
+xde-theme-blackbirds
+==================
+
+Package xde-theme-blackbirds-1.1 was released under CCPL:cc-by-nc-nd-3.0
+license 2013-12-23.
+
+This is a theme and a set of backgrounds for the XDE (X Desktop
+Environment) which provides a set of backgrounds on a Airforce theme.
+This theme uses the Squared-green style from the xde-styles package.
+
+Release
+-------
+
+This is the xde-theme-blackbirds-1.1 package, released 2013-12-23.  This
+release, and the latest version, can be obtained from the GitHub
+repository at (http://github.com/bbidulock/xde-theme-blackbirds), using a
+command such as:
+
+    $> git clone http://github.com/bbidulock/xde-theme-blackbirds.git
+
+Please see the `NEWS' file for release notes and history of user visible
+changes for the current version, and the `ChangeLog' file for a more
+detailed history of implementation changes.  The `TODO' file lists
+features not yet implemented and other outstanding items.
+
+Please see the `INSTALL' file for installation instructions.
+
+When working from `git(1)', please see the `README-git' file.  An
+abbreviated installation proceedure that works for most applications
+appears below.
+
+This release is published under the CCPL:cc-by-nc-nd-3.0 (primarily
+because the base styles used to develop these styles were licensed under
+this license).  Please see the license in the file `COPYING'.
+
+Quick Start:
+------------
+
+The quickest and easiest way to get xde-theme-blackbirds up and running is
+to run the following commands:
+
+    $> git clone http://github.com/bbidulock/xde-theme-blackbirds.git
+    $> cd xde-theme-blackbirds
+    $> ./autogen.sh
+    $> ./configure --prefix=/usr
+    $> make V=0
+    $> make DESTDIR="$pkgdir" install
+
+This will configure, compile and install xde-theme-blackbirds the
+quickest.  For those who would like to spend the extra 15 seconds
+reading ./configure --help, some compile time options can be turned on
+and off before the build.
+
+For general information on GNU's ./configure, see the file `INSTALL'.
+
+Prerequisites:
+--------------
+
+This package needs the xde-styles package that can be obtained from
+(http://github.com/bbidulock/xde-styles) to be useful and also requires
+the `xde-setbg(1p)' daemon perl script.
+
+# vim: set ft=asciidoc tw=72 nocin nosi fo+=tcqlorn:
