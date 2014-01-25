@@ -34,6 +34,12 @@ AC_SUBST([basestyle])
 baseprefix='sc'
 AC_SUBST([baseprefix])
 
+waimeadir='$(datadir)/waimea'
+AC_SUBST([waimeadir])
+
+waimeastylesdir='$(waimeadir)/styles'
+AC_SUBST([waimeastylesdir])
+
 fluxboxdir='$(datadir)/fluxbox'
 AC_SUBST([fluxboxdir])
 
