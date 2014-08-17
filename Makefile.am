@@ -2,7 +2,8 @@
 AUTOMAKE_OPTIONS = nostdinc
 
 dist_xdetheme_DATA = \
-	theme/theme.ini
+	theme/theme.ini \
+	theme/themerc
 
 dist_wmakertheme_DATA = \
 	theme/style
