@@ -34,6 +34,12 @@ AC_SUBST([basestyle])
 baseprefix='sc'
 AC_SUBST([baseprefix])
 
+adwmdir='$(datadir)/adwm'
+AC_SUBST([adwmdir])
+
+adwmstylesdir='$(adwmdir)/styles'
+AC_SUBST([adwmstylesdir])
+
 waimeadir='$(datadir)/waimea'
 AC_SUBST([waimeadir])
 
