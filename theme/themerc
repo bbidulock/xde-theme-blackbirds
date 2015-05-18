@@ -1,16 +1,16 @@
 XDE-Theme*Name:				Blackbirds
 XDE-Theme*Style:			Squared-blue
 
-XDE-Theme*WallpaperDefault:		blackbird_flats
+XDE-Theme*WallpaperDefault:		blackbirds_flats
 XDE-Theme*WallpaperRepeat:		true
-XDE-Theme*Wallpaper0:			blackbird_flats
+XDE-Theme*Wallpaper0:			blackbirds_flats
 XDE-Theme*Wallpaper1:			blackbird_mountains
 XDE-Theme*Wallpaper2:			blackbirds_parked
 XDE-Theme*Wallpaper3:			blackbird_tarmac
 XDE-Theme*Wallpaper4:			blackbird_refuel
 XDE-Theme*Wallpaper5:			blackbird_beale
 XDE-Theme*Wallpaper6:			blackbird_clouds
-XDE-Theme*Wallpaper7:			blackbird_suits
+XDE-Theme*Wallpaper7:			blackbirds_suits
 
 XDE-Theme*Workspaces:			8
 XDE-Theme*WorkspaceNames:		\ 1 , 2 , 3 , 4 , 5 , 6 , 7, 8 , 9 
@@ -20,16 +20,16 @@ XDE-Theme*WorkspaceCenter:		0
 XDE-Theme*WorkspaceScaled:		0
 XDE-Theme*WorkspaceTiled:		0
 XDE-Theme*WorkspaceFull:		1
-XDE-Theme*WorkspaceImage:		blackbirds/blackbird_flats.jpg
+XDE-Theme*WorkspaceImage:		blackbirds/blackbirds_flats.jpg
 
-XDE-Theme*Workspace0Image:		blackbirds/blackbird_flats.jpg
+XDE-Theme*Workspace0Image:		blackbirds/blackbirds_flats.jpg
 XDE-Theme*Workspace1Image:		blackbirds/blackbird_mountains.jpg
 XDE-Theme*Workspace2Image:		blackbirds/blackbirds_parked.jpg
 XDE-Theme*Workspace3Image:		blackbirds/blackbird_tarmac.jpg
 XDE-Theme*Workspace4Image:		blackbirds/blackbird_refuel.jpg
 XDE-Theme*Workspace5Image:		blackbirds/blackbird_beale.jpg
 XDE-Theme*Workspace6Image:		blackbirds/blackbird_clouds.jpg
-XDE-Theme*Workspace7Image:		blackbirds/blackbird_suits.jpg
+XDE-Theme*Workspace7Image:		blackbirds/blackbirds_suits.jpg
 
 XDE-Theme.blackbox.WorkspaceNames:	Workspace 1,Workspace 2,Workspace 3,Workspace 4,Workspace 5,Workspace 6,Workspace 7,Workspace 8,Workspace 9
 

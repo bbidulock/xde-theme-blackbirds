@@ -39,7 +39,7 @@
     (spixmap, "blackbird_refuel.jpg",	    "#467177"),
     (spixmap, "blackbird_beale.jpg",	    "#467177"),
     (spixmap, "blackbird_clouds.jpg",	    "#467177"),
-    (spixmap, "blackbird_suits.jpg",	    "#467177"),
+    (spixmap, "blackbirds_suits.jpg",	    "#467177"),
     (spixmap, "blackbirds_flats.jpg",	    "#467177"),
     (spixmap, "blackbird_mountains.jpg",    "#467177"),
     (spixmap, "blackbirds_parked.jpg",	    "#467177"),
@@ -47,7 +47,7 @@
     (spixmap, "blackbird_refuel.jpg",	    "#467177"),
     (spixmap, "blackbird_beale.jpg",	    "#467177"),
     (spixmap, "blackbird_clouds.jpg",	    "#467177"),
-    (spixmap, "blackbird_suits.jpg",	    "#467177")
+    (spixmap, "blackbirds_suits.jpg",	    "#467177")
   );
   WorkspaceBack = (spixmap, "blackbirds_flats.jpg", "#467177");
 }
