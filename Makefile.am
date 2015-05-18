@@ -9,13 +9,17 @@ dist_wmakertheme_DATA = \
 	theme/style
 
 dist_xdeimage_DATA = \
+	images/blackbird_afterburn.jpg \
 	images/blackbird_beale.jpg \
 	images/blackbird_clouds.jpg \
 	images/blackbird_drone.jpg \
 	images/blackbird_fields.jpg \
 	images/blackbird_highalt.jpg \
 	images/blackbird_mountains.jpg \
+	images/blackbird_peaks.jpg \
+	images/blackbird_pulse.jpg \
 	images/blackbird_refuel.jpg \
+	images/blackbird_runway.jpg \
 	images/blackbirds_flats.jpg \
 	images/blackbirds_mist.jpg \
 	images/blackbirds_parked.jpg \
@@ -24,19 +28,24 @@ dist_xdeimage_DATA = \
 	images/blackbird_tarmac.jpg
 
 EXTRA_DIST = \
+	images/blackbird_afterburn.jpg \
 	images/blackbird_beale.jpg \
 	images/blackbird_clouds.jpg \
 	images/blackbird_drone.jpg \
 	images/blackbird_fields.jpg \
 	images/blackbird_highalt.jpg \
 	images/blackbird_mountains.jpg \
+	images/blackbird_peaks.jpg \
+	images/blackbird_pulse.jpg \
 	images/blackbird_refuel.jpg \
+	images/blackbird_runway.jpg \
 	images/blackbirds_flats.jpg \
 	images/blackbirds_mist.jpg \
 	images/blackbirds_parked.jpg \
 	images/blackbirds_suits.jpg \
 	images/blackbird_takeoff.jpg \
 	images/blackbird_tarmac.jpg
+
 
 install-data-hook:
 	$(MKDIR_P) $(DESTDIR)$(adwmstylesdir)
