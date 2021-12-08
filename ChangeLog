@@ -1,0 +1,118 @@
+# created with git log --stat=76 -M -C -500|fmt -sct -w80
+
+commit 6bf6a8ece736568193fccf0f19dc0532f8d618be
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon May 18 02:13:54 2015 -0600
+
+    some more better blackbird images
+
+ Makefile.am                    |  21 ++++++++++++++++++---
+ images/blackbird_afterburn.jpg | Bin 346495 -> 67556 bytes
+ images/blackbird_climbing.jpg  | Bin 0 -> 121001 bytes
+ images/blackbird_fields.jpg    | Bin 624279 -> 286104 bytes
+ images/blackbird_landing.jpg   | Bin 0 -> 192857 bytes
+ images/blackbird_liftoff.jpg   | Bin 0 -> 149702 bytes
+ images/blackbird_nose.jpg      | Bin 0 -> 124830 bytes
+ images/blackbird_oversnow.jpg  | Bin 0 -> 271728 bytes
+ images/blackbird_photos.jpg    | Bin 0 -> 162516 bytes
+ images/blackbird_piggyback.jpg | Bin 0 -> 130875 bytes
+ images/blackbird_pulse.jpg     | Bin 283242 -> 94839 bytes
+ images/blackbird_runway.jpg    | Bin 766150 -> 237535 bytes
+ images/blackbird_valley.jpg    | Bin 0 -> 167295 bytes
+ images/blackbirds_flats.jpg    | Bin 299902 -> 187087 bytes
+ 14 files changed, 18 insertions(+), 3 deletions(-)
+
+commit 7ca8ce384b424b909164ee706e45c7dad285bd7d
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sun May 17 22:10:00 2015 -0600
+
+    some spelling errors on filenames
+
+ theme/style   |  4 ++--
+ theme/themerc | 12 ++++++------
+ 2 files changed, 8 insertions(+), 8 deletions(-)
+
+commit f6c98a2a4e56d0fa8b218980d781df1ef64650d9
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sun May 17 19:40:06 2015 -0600
+
+    add some more blackbird images
+
+ Makefile.am                    |   9 +++++++++
+ images/blackbird_afterburn.jpg | Bin 0 -> 346495 bytes
+ images/blackbird_peaks.jpg     | Bin 0 -> 516089 bytes
+ images/blackbird_pulse.jpg     | Bin 0 -> 283242 bytes
+ images/blackbird_runway.jpg    | Bin 0 -> 766150 bytes
+ 5 files changed, 9 insertions(+)
+
+commit 24594d5b20afe7c9232b7c5cb7767603dcd15f8f
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Fri Sep 12 15:38:58 2014 -0600
+
+    added adwm style
+
+ Makefile.am        | 34 ++++++++++++++++++----------------
+ configure.template |  6 ++++++
+ 2 files changed, 24 insertions(+), 16 deletions(-)
+
+commit 3ea41db7659e3dc7e90bb5273feae1ddda6a7074
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sun Aug 17 17:13:20 2014 -0600
+
+    add themerc file
+
+ Makefile.am   |  3 +-
+ theme/themerc | 82 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 84 insertions(+), 1 deletion(-)
+
+commit 25f546a5833d878c00c8e1d835a2195a5a484131
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sat Jan 25 05:12:16 2014 -0700
+
+    added waimea support
+
+ Makefile.am        | 32 +++++++++++++++++---------------
+ configure.template |  6 ++++++
+ 2 files changed, 23 insertions(+), 15 deletions(-)
+
+commit ea905b3860f0b3791306df75b268da235cb6ac8d
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 17:49:19 2013 -0700
+
+    updated description
+
+ README | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit 52700f18586252bd43bda947fb46fc67996f4003
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 16:32:25 2013 -0700
+
+    initial commit
+
+ .gitignore                     |  12 ++++
+ AUTHORS                        |   3 +
+ COPYING                        |  58 +++++++++++++++++
+ Makefile.am                    |  77 +++++++++++++++++++++++
+ NEWS                           |  10 +++
+ README                         |  65 +++++++++++++++++++
+ THANKS                         |   3 +
+ autogen.sh                     |  19 ++++++
+ configure.template             | 126 +++++++++++++++++++++++++++++++++++++
+ images/a12_nose.jpg            | Bin 0 -> 270645 bytes
+ images/blackbird_beale.jpg     | Bin 0 -> 407869 bytes
+ images/blackbird_clouds.jpg    | Bin 0 -> 393718 bytes
+ images/blackbird_drone.jpg     | Bin 0 -> 226450 bytes
+ images/blackbird_fields.jpg    | Bin 0 -> 624279 bytes
+ images/blackbird_highalt.jpg   | Bin 0 -> 334805 bytes
+ images/blackbird_mountains.jpg | Bin 0 -> 595109 bytes
+ images/blackbird_refuel.jpg    | Bin 0 -> 643776 bytes
+ images/blackbird_takeoff.jpg   | Bin 0 -> 267318 bytes
+ images/blackbird_tarmac.jpg    | Bin 0 -> 502637 bytes
+ images/blackbirds_flats.jpg    | Bin 0 -> 299902 bytes
+ images/blackbirds_mist.jpg     | Bin 0 -> 219265 bytes
+ images/blackbirds_parked.jpg   | Bin 0 -> 552661 bytes
+ images/blackbirds_suits.jpg    | Bin 0 -> 421839 bytes
+ theme/style                    |  53 ++++++++++++++++
+ theme/theme.ini                |  80 +++++++++++++++++++++++
+ 25 files changed, 506 insertions(+)

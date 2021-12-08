@@ -1,0 +1,10 @@
+// xde-ctools -- TODO file.  2021-12-07
+
+There are no TODO items at this time.
+
+General:
+
+* [ ] Make some TODO items.
+* [x] Mention we need some TODO items.
+
+// vim: set ft=asciidoc tw=72 nocin nosi fo+=tcqlorn spell:

@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# need --enable-maintainer-mode to be able to run in place
+#      must be disabled to build an installable package
+
+# *FLAGS are what Arch Linux makepkg uses with the exception
+#      that -Wall -Werror is added
+
+case "`uname -m`" in
+	i686)
+		CPPFLAGS="-D_FORTIFY_SOURCE=2"
+		CPPFLAGS=""
+		CFLAGS="-march=i686 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt"
+		CFLAGS="-march=i686 -mtune=generic -O2 -pipe -fno-plt -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fstack-clash-protection -fcf-protection"
+		CXXFLAGS="-march=i686 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt"
+		CXXFLAGS="$CFLAGS -Wp,-D_GLIBCXX_ASSERTIONS"
+		LDFLAGS="-Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now"
+		DEBUG_CFLAGS="-g -ggdb -fvar-tracking-assignments"
+		DEBUG_CXXFLAGS="-g -ggdb -fvar-tracking-assignments"
+	;;
+	x86_64)
+		CPPFLAGS="-D_FORTIFY_SOURCE=2"
+		CPPFLAGS=""
+		CFLAGS="-march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt"
+		CFLAGS="-march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fstack-clash-protection -fcf-protection"
+		CXXFLAGS="-march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt"
+		CXXFLAGS="$CFLAGS -Wp,-D_GLIBCXX_ASSERTIONS"
+		LDFLAGS="-Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now"
+		DEBUG_CFLAGS="-g -ggdb -fvar-tracking-assignments"
+		DEBUG_CXXFLAGS="-g -ggdb -fvar-tracking-assignments"
+	;;
+esac
+
+./configure \
+	--enable-maintainer-mode \
+	CPPFLAGS="$CPPFLAGS" \
+	CFLAGS="$DEBUG_CFLAGS -Wall -Wextra -Werror -Wno-deprecated-declarations $CFLAGS" \
+	CXXFLAGS="$DEBUG_CXXFLAGS -Wall -Wextra -Werror -Wno-deprecated-declarations $CXXFLAGS" \
+	LDFLAGS="$LDFLAGS" \
+	DEBUG_CFLAGS="$DEBUG_CFLAGS" \
+	DEBUG_CXXFLAGS="$DEBUG_CXXFLAGS"
+

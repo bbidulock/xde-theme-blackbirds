@@ -1,10 +1,25 @@
-Major changes for release 1.1:
-------------------------------
+xde-theme-blackbirds -- history of user-visible changes.  2015-05-18
 
-Added CTWM, VTWM and TWM support.
+Release xde-theme-blackbirds-1.1.7 released 2015-05-18
+------------------------------------------------------
 
-Major changes for release 1.0:
-------------------------------
+git shortlog -e -n -w80,6,8 1.1...HEAD
 
-Initial release of this package.
+Brian Bidulock <bidulock@openss7.org> (7):
+      updated description
+      added waimea support
+      add themerc file
+      added adwm style
+      add some more blackbird images
+      some spelling errors on filenames
+      some more better blackbird images
+
+
+Release xde-theme-blackbirds-1.1 released 2013-12-23
+----------------------------------------------------
+
+git shortlog -e -n -w80,6,8 1.1
+
+Brian Bidulock <bidulock@openss7.org> (1):
+      initial commit
 

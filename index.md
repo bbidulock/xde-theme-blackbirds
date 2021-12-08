@@ -1,3 +1,6 @@
+---
+layout: default
+---
 [xde-theme-blackbirds -- read me first file.  2015-05-18]: #
 
 xde-theme-blackbirds
