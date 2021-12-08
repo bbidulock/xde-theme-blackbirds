@@ -82,6 +82,12 @@ Report issues on GitHub [here][2].
 Samples
 -------
 
+Following are two samples of screenshots of the theme taken under the
+[ADWM][13] window manager:
+
+![adwm.jpg](scrot/adwm.jpg "Wallpaper #1")
+![adwm_000.jpg](scrot/adwm_000.jpg "Wallpaper #2")
+
 Following are the eight wallpapers included in the theme:
 
 ![blackbirds_flats.jpg](images/blackbirds_flats.jpg "Wallpaper #1")
@@ -107,5 +113,6 @@ Following are the eight wallpapers included in the theme:
 [10]: https://github.com/bbidulock/xde-theme-blackbirds/blob/1.2/COPYING
 [11]: https://github.com/bbidulock/xde-styles
 [12]: https://github.com/bbidulock/xde-ctools
+[13]: https://bbidulock.github.io/adwm
 
 [ vim: set ft=markdown sw=4 tw=72 nocin nosi fo+=tcqlorn spell: ]: #
