@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-[xde-theme-blackbirds -- read me first file.  2015-05-18]: #
+[xde-theme-blackbirds -- read me first file.  2021-12-08]: #
 
 xde-theme-blackbirds
 ===============
 
-Package `xde-theme-blackbirds-1.1.7` was released under CCPL:cc-by-nc-nd-3.0
-license 2015-05-18.
+Package `xde-theme-blackbirds-1.2` was released under CCPL:cc-by-nc-nd-3.0
+license 2021-12-08.
 
 This is a theme and a set of backgrounds for the _XDE (X Desktop
 Environment)_ that provides a set of backgrounds on
@@ -21,7 +21,7 @@ The source for `xde-theme-blackbirds` is hosted on [GitHub][1].
 Release
 -------
 
-This is the `xde-theme-blackbirds-1.1.7` package, released 2015-05-18.
+This is the `xde-theme-blackbirds-1.2` package, released 2021-12-08.
 This release, and the latest version, can be obtained from [GitHub][1],
 using a command such as:
 
@@ -97,14 +97,14 @@ Following are the eight wallpapers included in the theme:
 
 [1]: https://github.com/bbidulock/xde-theme-blackbirds
 [2]: https://github.com/bbidulock/xde-theme-blackbirds/issues
-[3]: https://github.com/bbidulock/xde-theme-blackbirds/blob/master/RELEASE
-[4]: https://github.com/bbidulock/xde-theme-blackbirds/blob/master/NEWS
-[5]: https://github.com/bbidulock/xde-theme-blackbirds/blob/master/ChangeLog
-[6]: https://github.com/bbidulock/xde-theme-blackbirds/blob/master/TODO
-[7]: https://github.com/bbidulock/xde-theme-blackbirds/blob/master/COMPLIANCE
-[8]: https://github.com/bbidulock/xde-theme-blackbirds/blob/master/INSTALL
-[9]: https://github.com/bbidulock/xde-theme-blackbirds/blob/master/LICENSE
-[10]: https://github.com/bbidulock/xde-theme-blackbirds/blob/master/COPYING
+[3]: https://github.com/bbidulock/xde-theme-blackbirds/blob/1.2/RELEASE
+[4]: https://github.com/bbidulock/xde-theme-blackbirds/blob/1.2/NEWS
+[5]: https://github.com/bbidulock/xde-theme-blackbirds/blob/1.2/ChangeLog
+[6]: https://github.com/bbidulock/xde-theme-blackbirds/blob/1.2/TODO
+[7]: https://github.com/bbidulock/xde-theme-blackbirds/blob/1.2/COMPLIANCE
+[8]: https://github.com/bbidulock/xde-theme-blackbirds/blob/1.2/INSTALL
+[9]: https://github.com/bbidulock/xde-theme-blackbirds/blob/1.2/LICENSE
+[10]: https://github.com/bbidulock/xde-theme-blackbirds/blob/1.2/COPYING
 [11]: https://github.com/bbidulock/xde-styles
 [12]: https://github.com/bbidulock/xde-ctools
 
