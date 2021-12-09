@@ -90,7 +90,10 @@ dist_xdetheme_DATA = \
 	theme/themerc
 
 dist_wmakertheme_DATA = \
-	theme/style
+	theme/wmaker/style
+
+dist_adwmtheme_DATA = \
+	theme/adwm/themerc
 
 dist_xdeimage_DATA = \
 	images/blackbird_afterburn.jpg \

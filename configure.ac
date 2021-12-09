@@ -96,6 +96,12 @@ AC_SUBST([adwmdir])
 adwmstylesdir='$(adwmdir)/styles'
 AC_SUBST([adwmstylesdir])
 
+adwmthemesdir='$(adwmdir)/themes'
+AC_SUBST([adwmthemesdir])
+
+adwmthemedir='$(adwmthemesdir)/$(style)'
+AC_SUBST([adwmthemedir])
+
 waimeadir='$(datadir)/waimea'
 AC_SUBST([waimeadir])
 

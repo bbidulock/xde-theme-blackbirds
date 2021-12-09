@@ -1,0 +1,70 @@
+Adwm*theme.name:			Blackbirds
+Adwm*theme.author:			Brian Bidulock
+Adwm*theme.date:			Wed Feb 5 2014
+Adwm*theme.credits:			
+Adwm*theme.comments:			For unexicon.
+
+Adwm*styleName:				Squared-blue
+Adwm*styleFile:				stylerc
+Adwm*dockFile:				dockrc
+Adwm*keysFile:				keysrc
+
+Adwm*tags.number:			12
+Adwm*tags.rows:				2
+Adwm*tags.cols:				6
+
+Adwm*tags.name0:			1
+Adwm*tags.name1:			2
+Adwm*tags.name2:			3
+Adwm*tags.name3:			4
+Adwm*tags.name4:			5
+Adwm*tags.name5:			6
+Adwm*tags.name6:			7
+Adwm*tags.name7:			8
+Adwm*tags.name8:			9
+Adwm*tags.name9:			10
+Adwm*tags.name10:			11
+Adwm*tags.name11:			12
+
+Adwm*tags.image.repeat:			1
+
+Adwm*tags.color:			rgb:00/20/40
+!Adwm*tags.color0:			rgb:00/20/40
+!Adwm*tags.color1:			rgb:00/20/40
+!Adwm*tags.color2:			rgb:00/20/40
+!Adwm*tags.color3:			rgb:00/20/40
+!Adwm*tags.color4:			rgb:00/20/40
+!Adwm*tags.color5:			rgb:00/20/40
+!Adwm*tags.color6:			rgb:00/20/40
+!Adwm*tags.color7:			rgb:00/20/40
+!Adwm*tags.color8:			rgb:00/20/40
+!Adwm*tags.color9:			rgb:00/20/40
+!Adwm*tags.color10:			rgb:00/20/40
+!Adwm*tags.color11:			rgb:00/20/40
+
+Adwm*tags.image:			airforce/blackbirds_flats.jpg
+Adwm*tags.image0:			airforce/blackbirds_flats.jpg
+Adwm*tags.image1:			airforce/blackbird_mountains.jpg
+Adwm*tags.image2:			airforce/blackbirds_parked.jpg
+Adwm*tags.image3:			airforce/blackbird_tarmac.jpg
+Adwm*tags.image4:			airforce/blackbird_refuel.jpg
+Adwm*tags.image5:			airforce/blackbird_beale.jpg
+Adwm*tags.image6:			airforce/blackbird_clouds.jpg
+Adwm*tags.image7:			airforce/blackbirds_suits.jpg
+
+Adwm*tags.image.how:			4
+!Adwm*tags.image0.how:			clipped
+!Adwm*tags.image1.how:			clipped
+!Adwm*tags.image2.how:			clipped
+!Adwm*tags.image3.how:			clipped
+!Adwm*tags.image4.how:			clipped
+!Adwm*tags.image5.how:			clipped
+!Adwm*tags.image6.how:			clipped
+!Adwm*tags.image7.how:			clipped
+!Adwm*tags.image8.how:			clipped
+!Adwm*tags.image9.how:			clipped
+!Adwm*tags.image10.how:			clipped
+!Adwm*tags.image11.how:			clipped
+
+
+! vim: set ft=xdefaults:
