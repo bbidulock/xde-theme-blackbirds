@@ -2,8 +2,8 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.69)
-AC_INIT([xde-theme-blackbirds],[1.2],[https://github.com/bbidulock/xde-theme-blackbirds],[xde-theme-blackbirds],[https://github.com/bbidulock/xde-theme-blackbirds/issues])
-AC_REVISION([1.2])
+AC_INIT([xde-theme-blackbirds],[1.2.4],[https://github.com/bbidulock/xde-theme-blackbirds],[xde-theme-blackbirds],[https://github.com/bbidulock/xde-theme-blackbirds/issues])
+AC_REVISION([1.2.4])
 
 # set better defaults
 AC_PREFIX_DEFAULT([/usr])
@@ -22,11 +22,11 @@ AC_SUBST([DATE])
 MDOCDATE='December 8, 2021'
 AC_SUBST([MDOCDATE])
 
-BRANCH='1.2'
+BRANCH='master'
 AC_SUBST([BRANCH])
 
 # Initialize Automake
-AM_INIT_AUTOMAKE([gnits 1.16 dist-lzip no-dist-gzip std-options -Wall color-tests silent-rules tar-pax])
+AM_INIT_AUTOMAKE([1.16 dist-lzip no-dist-gzip std-options -Wall color-tests silent-rules tar-pax])
 AM_MAINTAINER_MODE
 AM_SILENT_RULES([yes])
 

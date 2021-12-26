@@ -1,5 +1,17 @@
 xde-theme-blackbirds -- history of user-visible changes.  2021-12-08
 
+Release xde-theme-blackbirds-1.2.4 released 2021-12-08
+------------------------------------------------------
+
+git shortlog -e -n -w80,6,8 1.2...HEAD
+
+Brian Bidulock <bidulock@openss7.org> (4):
+      post-release update
+      add screenshots
+      prepare for adwm theme
+      show additional wallpapers
+
+
 Release xde-theme-blackbirds-1.2 released 2021-12-08
 ----------------------------------------------------
 

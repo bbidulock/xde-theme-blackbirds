@@ -40,6 +40,24 @@ the base styles used to develop these styles were licensed under this
 license).
 Please see the license in the file [COPYING][10].
 
+Please note that @PACKAGE@ is no longer released as
+a tarball and is only released as git commits; use:
+
+    $> ./autogen.sh
+    $> ./configure --version
+
+to determine the version associated with a given commit in the
+checked out working directory.  Note that this is the same version
+as executing:
+
+    $> git describe|sed 's,[-_],.,g;s,\.g*,,'
+
+in the checked out working directory.
+
+Note that only HEAD commits are stable: do not attempt to use any
+other commit as only HEAD is synchronized with other packages in
+the suite.
+
 
 Quick Start
 -----------
